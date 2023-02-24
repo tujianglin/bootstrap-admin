@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/gulp serveTask",
+    "build": "node_modules/.bin/gulp buildTask"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "browser-sync": "^2.27.9",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-less": "^5.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^9.0.1",
+    "gulp-px2rem": "^1.1.4",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.12",
+    "postcss-preset-env": "^7.4.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
+  }
+}
